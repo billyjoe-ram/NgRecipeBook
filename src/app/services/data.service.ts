@@ -23,7 +23,7 @@ export class DataService {
     const recipes = this.recipes.getRecipes();
 
     this.http.put(`${this.api}/recipes.json`, recipes).subscribe(response => {
-      console.log(response);
+      // console.log(response);
     });
   }
 
